@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Ian's Website</title>
+		<link rel="stylesheet" type="text/css" href="interface.css">
+		<link rel="shortcut icon" href="">
+	</head>
+	<body onload="onload()">
+		<div>
+			<!--<button class="tablink" onclick="openTab('Compose')" id="defaultTab">Compose</button>
+			<button class="tablink" onclick="openTab('Performance')">Performance</button>
+			<button class="tablink" onclick="openTab('Market')">Market</button>
+			<button class="tablink" onclick="openTab('Band')">Band</button>
+			<button class="tablink" onclick="openTab('Demographics')">Demographics</button>
+			<button class="tablink" onclick="openTab('Settings')">Settings</button>-->
+			<button class="tablinksmall" onclick="openTab('home')">Home</button>
+			<button class="tablink" onclick="openTab('data')">Data</button>
+			<button class="tablink" onclick="openTab('&')">&</button>
+			<button class="tablink" onclick="openTab('&')">&</button>
+			<button class="tablink" onclick="openTab('theworld')">The World</button>
+			<button class="tablink" onclick="openTab('shooter')">Shooter</button>
+			<button class="tablinksmall" onclick="openTab('settings')">Settings</button>
+
+		</div>
+
+		<div id="home" class="tabcontent">
+			<p>Welcome to my Website</p>
+			<p>It is sparse but try out the Shooter tab.
+		</div>
+
+		<div id="data" class="tabcontent">
+			<p>Useful Data</p>
+			
+			<button class id="DataMenuButton" onclick="openMenu('NTData')">Nuclear Thone</button>
+			<a href="https://docs.google.com/spreadsheets/d/1FyYfy1HrRhXXknxUWMoEs1BdBAcNpN9TPMnUrV_M0eI/edit#gid=504505474">Nuclear Throne Docs</a>
+			<button class id="DataMenuButton" onclick="openMenu('x')">X</button>
+			<table id="NTData" class="menucontent">
+				<thead>
+					<tr>
+						<th colspan="2">The table header</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Row1</td>
+						<td>Row2</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div id="theworld" class="tabcontent">
+			<button class id="TWMenuButton" onclick="openMenu('x')">X</button>
+			<button class id="TWMenuButton" onclick="openMenu('x')">X</button>
+<!--
+			<div class="numberdisplay">
+				<span style="background-color:white">
+					$ <span id="cash">0</span>
+				</span>
+				<span class="numberdisplay">
+					<img src="HappyFace.png">
+					<span id="happyfan">0</span>
+					<img src="NeutralFace.png">
+					<span id="neutralfan">0</span>
+					<img src="MadFace.png">
+					<span id="angryfan">0</span>
+				</span>
+			</div>
+-->
+			<h3>Welcome to the World of Peacecraft</h3>
+			<p>This is an empty world, no life exists, give it a jump start</p>
+			<p>Don't ruin it, only this one exists</p>
+			<!--<button onclick="addCash(1)">Beg 4 cash</button> -->
+
+		</div>
+
+		<div id="settings" class="tabcontent">
+			<h3>Settings</h3>
+			<p>Settings for saving</p>
+			<button onclick="save()">Manual Save</button>
+			<button onclick="load()">Load</button>
+			<button class="hardresetbutton" onclick="wipeSave()">Hard Reset</button>
+		</div>
+
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

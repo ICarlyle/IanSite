@@ -1,0 +1,30 @@
+npm
+cd C:\Users\Ian\Desktop\IanSite
+
+in gitbash
+cd desktop
+cd IanSite
+
+client.js	The logic for the game client setup in the browser.
+app.js		The server side app to run on node. This handles all the node/express/socket.io set up and code.
+game.server.js	The logic for the game server (ÅelobbyÅf).
+game.core.js	The logic for the game play itself, both server and client.
+
+
+
+Types materials
+
+Alive
+Flora
+grass
+
+Fauna
+Humans
+
+
+
+Materials
+Wood
+Stone
+Metals
+

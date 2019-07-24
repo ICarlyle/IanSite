@@ -1,0 +1,94 @@
+/* Style of tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 16px;
+    width: 16%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Smaller tablink for settings */
+.tablinksmall {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 16px;
+    width: 10%;
+}
+
+/* Change background color of buttons on hover */
+.tablinksmall:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+	display: none;
+	padding: 50px;
+	text-align: center;
+}
+
+/*The world tab specific settings */
+
+.TWMenuButton {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 16px;
+    width: 6%;
+}
+
+.TWMenucontent {
+    background-color: #555;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 16px;
+    width: 6%;
+    display: none;
+}
+
+
+
+
+
+
+.numberdisplay {
+	background-color: #00BFFF; /* Blue */
+	text-align: left;
+	padding: 6px 64px;
+}
+
+
+
+
+.button {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.hardresetbutton {background-color: #f44336;} /* Red */ 
